@@ -6,7 +6,7 @@ public with sharing class AccountController {
 
     @AuraEnabled(cacheable=true)
     public static Account getSingleAccount() {
-        //momo super comment
+        //momo super comment P
         return [
             SELECT Id, Name, Phone, Type
             FROM Account
