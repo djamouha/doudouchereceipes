@@ -100,8 +100,7 @@ jobs:
                   if [ $secretFileSize == 1 ]; then
                       echo "Missing DEVHUB_SFDX_URL secret. Is this workflow running on a fork?";
                       exit 1;
-                  fi
-                  echo 'top'
+                  fi 
 
             # Authenticate dev hub
             - name: 'Authenticate Dev Hub'
