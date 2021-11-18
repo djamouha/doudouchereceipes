@@ -74,7 +74,7 @@ jobs:
 
             # Store secret for dev hub
             - name: 'Populate auth file with DEVHUB_SFDX_URL secret'
-              shell: bash
+              shell: zsh
               run: |
                   echo ${{ secrets.DEVHUB_SFDX_URL}}
                   echo ${{ secrets.DEVHUB_SFDX_URL}} > ./DEVHUB_SFDX_URL.txt
