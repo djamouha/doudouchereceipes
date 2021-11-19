@@ -4,9 +4,7 @@
     "hasSampleData": false,
     "features": ["Walkthroughs", "EnableSetPasswordInApi"],
     "settings": {
-        "lightningExperienceSettings": {
-            "enableS1DesktopEnabled": true
-        },
+        
         "mobileSettings": {
             "enableS1EncryptedStoragePref2": false
         },
